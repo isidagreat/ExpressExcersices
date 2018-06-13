@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h2>Details page for : <%=cats[1] %> </h2>
+		<img src="/<%=cats[0] %>.jpg">
+		<h3>Favorite Food:  <%=cats[3] %></h3>
+		<h3>age:  <%=cats[2] %></h3>
+		<h3>Sleeping Spots:</h3>
+		<% for (var x in spot){%>
+		<p><%=spot[x] %></p>
+		<hr>
+<%}%>
+</body>
+</html>
